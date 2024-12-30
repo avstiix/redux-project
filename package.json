@@ -1,0 +1,34 @@
+{
+  "name": "redux-advanced",
+  "version": "1.0.0",
+  "description": "Advanced Redux implementation",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint . --ext .ts,.js",
+    "format": "prettier --write \"src/**/*.{ts,js}\"",
+    "prepare": "husky install"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "husky": "^8.0.3",
+    "jest": "^29.5.0",
+    "prettier": "^2.8.7",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.4"
+  },
+  "keywords": ["redux", "state-management"],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  }
+} 

@@ -1,0 +1,42 @@
+redux-advanced/
+├── .github/
+│   ├── workflows/
+│   │   ├── ci.yml
+│   │   └── release.yml
+│   └── PULL_REQUEST_TEMPLATE.md
+├── src/
+│   ├── core/
+│   │   ├── createStore.js
+│   │   ├── combineReducers.js
+│   │   └── applyMiddleware.js
+│   ├── enhancers/
+│   │   ├── index.js
+│   │   ├── persistState.js
+│   │   └── devTools.js
+│   ├── middleware/
+│   │   ├── index.js
+│   │   ├── logger.js
+│   │   └── thunk.js
+│   ├── utils/
+│   │   ├── actionCreators.js
+│   │   └── selectors.js
+│   └── index.js
+├── tests/
+│   ├── core/
+│   │   └── createStore.test.js
+│   ├── middleware/
+│   │   └── thunk.test.js
+│   └── utils/
+│       └── selectors.test.js
+├── examples/
+│   ├── basic/
+│   │   └── counter.js
+│   └── advanced/
+│       └── todos.js
+├── .gitignore
+├── .eslintrc.js
+├── .prettierrc
+├── jest.config.js
+├── package.json
+├── tsconfig.json
+└── README.md 
