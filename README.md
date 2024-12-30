@@ -1,9 +1,7 @@
 
 # Advanced Redux Implementation
 
-[![CI](https://github.com/avstiix/redux-advanced/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/redux-advanced/actions/workflows/ci.yml)
 [![npm version](https://badge.fury.io/js/redux-project.svg)](https://badge.fury.io/js/redux-advanced)
-[![Coverage Status](https://codecov.io/gh/avstiix/redux-project/branch/main/graph/badge.svg)](https://codecov.io/gh/avstiix/redux-project)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A comprehensive Redux implementation with advanced features, built from scratch for educational purposes and production use.
