@@ -1,5 +1,5 @@
-import { createStore, applyMiddleware } from '../../src/redux';
-import { thunk } from '../../src/middleware/thunk';
+const { createStore, applyMiddleware } = require('../../src/redux');
+const { thunk } = require('../../src/middleware/thunk');
 
 describe('thunk middleware', () => {
   it('should handle async actions', async () => {

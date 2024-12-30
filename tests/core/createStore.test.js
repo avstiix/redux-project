@@ -1,4 +1,4 @@
-import { createStore } from '../../src/core/createStore';
+const { createStore } = require('../../src/core/createStore');
 
 describe('createStore', () => {
   const initialState = { count: 0 };

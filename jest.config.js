@@ -1,6 +1,12 @@
 module.exports = {
-  preset: 'ts-jest',
+  transform: {
+    '^.+\\.(ts|js)x?$': 'babel-jest'
+  },
+  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   testEnvironment: 'node',
+  testMatch: [
+    '**/tests/**/*.test.(ts|js)'
+  ],
   collectCoverageFrom: [
     'src/**/*.{ts,js}',
     '!src/index.ts',
@@ -13,9 +19,5 @@ module.exports = {
       lines: 80,
       statements: 80
     }
-  },
-  moduleFileExtensions: ['ts', 'js', 'json'],
-  testMatch: [
-    '**/tests/**/*.test.{ts,js}'
-  ]
+  }
 }; 

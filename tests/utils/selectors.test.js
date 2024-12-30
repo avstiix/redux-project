@@ -1,4 +1,4 @@
-import { createSelector } from '../../src/utils/selectors';
+const { createSelector } = require('../../src/utils/selectors');
 
 describe('createSelector', () => {
   const state = {
