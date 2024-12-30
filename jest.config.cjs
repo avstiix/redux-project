@@ -1,6 +1,6 @@
 module.exports = {
   transform: {
-    '^.+\\.(ts|js)x?$': 'babel-jest'
+    '^.+\\.(ts|js)x?$': ['babel-jest', { configFile: './babel.config.cjs' }]
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   testEnvironment: 'node',
@@ -19,5 +19,8 @@ module.exports = {
       lines: 80,
       statements: 80
     }
-  }
+  },
+  transformIgnorePatterns: [
+    'node_modules/(?!(@babel)/)'
+  ]
 }; 
